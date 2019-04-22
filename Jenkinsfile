@@ -1,4 +1,6 @@
 node {
+   environment {
+    PATH = "C:\Program Files\Git\bin"
    stage('SCM Checkout'){
      git 'https://github.com/ismehene/ticket'
    }
